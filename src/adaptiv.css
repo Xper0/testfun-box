@@ -1,0 +1,32 @@
+
+
+
+@media only screen and (min-device-width : 480px) and (max-device-width : 1024px) {
+    .gridconteiner{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 1px 1px;
+        grid-template-areas: ". ." ". .";
+        grid-column: 2/2;
+
+
+
+    }
+}
+
+
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+    .gridconteiner{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        gap: 1px 1px;
+
+
+    }
+
+
+}
